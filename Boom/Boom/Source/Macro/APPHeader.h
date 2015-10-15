@@ -10,6 +10,12 @@
 #define Project_APPHeader_h
 
 
+// controller的头文件引入
+#import "RootTabBarController.h"
+#import "NewsController.h"
+#import "AmusementController.h"
+#import "LiteratureController.h"
+#import "PersonageController.h"
 
 
 

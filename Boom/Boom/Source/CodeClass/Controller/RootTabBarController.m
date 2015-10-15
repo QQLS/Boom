@@ -16,7 +16,31 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // 把几个模块的tabBar添加到视图控制器上(tabBarViewController)
+    // 添加新闻tabBar
+    NewsController *newVC = [[NewsController alloc] init];
+    UINavigationController *newNC = [[UINavigationController alloc] initWithRootViewController:newVC];
+    newNC.tabBarItem.title = @"资讯";
+    
+    // 添加娱乐tabBar
+    AmusementController *amuseVC = [[AmusementController alloc] init];
+    UINavigationController *amuseNC = [[UINavigationController alloc] initWithRootViewController:amuseVC];
+    amuseNC.tabBarItem.title = @"娱乐";
+ 
+    // 添加文学tabBar
+    LiteratureController *literVC = [[LiteratureController alloc] init];
+    UINavigationController *literNC = [[UINavigationController alloc] initWithRootViewController:literVC];
+    literNC.tabBarItem.title = @"文学";
+    
+    // 添加个人tabBar
+    PersonageController *personVC = [[PersonageController alloc] init];
+    UINavigationController *personNC = [[UINavigationController alloc] initWithRootViewController:personVC];
+    personNC.tabBarItem.title = @"个人";
+    
+    // 把各个视图添加到视图控制器上
+    self.viewControllers = @[newNC,amuseNC,literNC,personNC];
+
 }
 
 - (void)didReceiveMemoryWarning {

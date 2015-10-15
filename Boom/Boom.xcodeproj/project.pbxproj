@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C276365C1BCFA05600E57B63 /* NewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C276365B1BCFA05600E57B63 /* NewsController.m */; };
+		C276365F1BCFA0AD00E57B63 /* AmusementController.m in Sources */ = {isa = PBXBuildFile; fileRef = C276365E1BCFA0AD00E57B63 /* AmusementController.m */; };
+		C27636621BCFA1D400E57B63 /* LiteratureController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27636611BCFA1D400E57B63 /* LiteratureController.m */; };
+		C27636651BCFA20500E57B63 /* PersonageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27636641BCFA20500E57B63 /* PersonageController.m */; };
 		C2E288671BCF99A50086DBBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E288661BCF99A50086DBBA /* main.m */; };
 		C2E288701BCF99A50086DBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E2886E1BCF99A50086DBBA /* Main.storyboard */; };
 		C2E288721BCF99A50086DBBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E288711BCF99A50086DBBA /* Images.xcassets */; };
@@ -27,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C276365A1BCFA05600E57B63 /* NewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsController.h; sourceTree = "<group>"; };
+		C276365B1BCFA05600E57B63 /* NewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsController.m; sourceTree = "<group>"; };
+		C276365D1BCFA0AD00E57B63 /* AmusementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmusementController.h; sourceTree = "<group>"; };
+		C276365E1BCFA0AD00E57B63 /* AmusementController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmusementController.m; sourceTree = "<group>"; };
+		C27636601BCFA1D300E57B63 /* LiteratureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteratureController.h; sourceTree = "<group>"; };
+		C27636611BCFA1D400E57B63 /* LiteratureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiteratureController.m; sourceTree = "<group>"; };
+		C27636631BCFA20500E57B63 /* PersonageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonageController.h; sourceTree = "<group>"; };
+		C27636641BCFA20500E57B63 /* PersonageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonageController.m; sourceTree = "<group>"; };
 		C2E288611BCF99A50086DBBA /* Boom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E288651BCF99A50086DBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2E288661BCF99A50086DBBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -171,6 +183,14 @@
 			children = (
 				C2E288A11BCF9AA70086DBBA /* RootTabBarController.h */,
 				C2E288A21BCF9AA70086DBBA /* RootTabBarController.m */,
+				C276365A1BCFA05600E57B63 /* NewsController.h */,
+				C276365B1BCFA05600E57B63 /* NewsController.m */,
+				C276365D1BCFA0AD00E57B63 /* AmusementController.h */,
+				C276365E1BCFA0AD00E57B63 /* AmusementController.m */,
+				C27636601BCFA1D300E57B63 /* LiteratureController.h */,
+				C27636611BCFA1D400E57B63 /* LiteratureController.m */,
+				C27636631BCFA20500E57B63 /* PersonageController.h */,
+				C27636641BCFA20500E57B63 /* PersonageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -349,7 +369,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C276365C1BCFA05600E57B63 /* NewsController.m in Sources */,
 				C2E288A31BCF9AA70086DBBA /* RootTabBarController.m in Sources */,
+				C27636621BCFA1D400E57B63 /* LiteratureController.m in Sources */,
+				C276365F1BCFA0AD00E57B63 /* AmusementController.m in Sources */,
+				C27636651BCFA20500E57B63 /* PersonageController.m in Sources */,
 				C2E288671BCF99A50086DBBA /* main.m in Sources */,
 				C2E288A01BCF9A0D0086DBBA /* AppDelegate.m in Sources */,
 			);
@@ -550,6 +574,7 @@
 				C2E288861BCF99A50086DBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E288871BCF99A50086DBBA /* Build configuration list for PBXNativeTarget "BoomTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +583,7 @@
 				C2E288891BCF99A50086DBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
