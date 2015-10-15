@@ -18,6 +18,7 @@
 		C2E288811BCF99A50086DBBA /* BoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E288801BCF99A50086DBBA /* BoomTests.m */; };
 		C2E288A01BCF9A0D0086DBBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E2888E1BCF9A0D0086DBBA /* AppDelegate.m */; };
 		C2E288A31BCF9AA70086DBBA /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E288A21BCF9AA70086DBBA /* RootTabBarController.m */; };
+		C2E288D81BCFE7E00086DBBA /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E288D71BCFE7E00086DBBA /* NewsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		C2E2889D1BCF9A0D0086DBBA /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
 		C2E288A11BCF9AA70086DBBA /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
 		C2E288A21BCF9AA70086DBBA /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		C2E288D61BCFE7E00086DBBA /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		C2E288D71BCFE7E00086DBBA /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 		C2E288921BCF9A0D0086DBBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C2E288D61BCFE7E00086DBBA /* NewsModel.h */,
+				C2E288D71BCFE7E00086DBBA /* NewsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -373,6 +378,7 @@
 				C2E288A31BCF9AA70086DBBA /* RootTabBarController.m in Sources */,
 				C27636621BCFA1D400E57B63 /* LiteratureController.m in Sources */,
 				C276365F1BCFA0AD00E57B63 /* AmusementController.m in Sources */,
+				C2E288D81BCFE7E00086DBBA /* NewsModel.m in Sources */,
 				C27636651BCFA20500E57B63 /* PersonageController.m in Sources */,
 				C2E288671BCF99A50086DBBA /* main.m in Sources */,
 				C2E288A01BCF9A0D0086DBBA /* AppDelegate.m in Sources */,
