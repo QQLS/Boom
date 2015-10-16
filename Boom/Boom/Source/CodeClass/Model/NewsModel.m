@@ -9,5 +9,10 @@
 #import "NewsModel.h"
 
 @implementation NewsModel
+// 防止找不到key程序崩溃
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    
+}
 
 @end

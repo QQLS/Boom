@@ -9,6 +9,13 @@
 #ifndef Project_APPHeader_h
 #define Project_APPHeader_h
 
+// 定义宏
+#define KHeightToHead 250
+#define KPageWeight 100
+#define KPageHeight 20
+
+
+
 
 // controller的头文件引入
 #import "RootTabBarController.h"
@@ -19,7 +26,11 @@
 
 
 
+#import "RootView.h"
 
+
+
+#import "NewsModel.h"
 
 
 

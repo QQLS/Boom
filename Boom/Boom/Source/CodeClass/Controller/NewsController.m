@@ -7,9 +7,9 @@
 //
 
 #import "NewsController.h"
-
+#import "RootView.h"
 @interface NewsController ()
-
+@property (nonatomic,strong)RootView *root;
 @end
 
 @implementation NewsController
@@ -18,7 +18,24 @@
     [super viewDidLoad];
     self.navigationItem.title = @"资讯";
     
+    // 用自定义的view替换NewsController的view
+    _root = [[RootView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, KHeightToHead)];
+    _root.backgroundColor = [UIColor grayColor];
+    self.view = _root;
+    
+    // 给pageControl添加点击事件
+    [self.root.pageControl addTarget:self action:@selector(pageControlAction:) forControlEvents:UIControlEventValueChanged];
+    
+    
+    
+    
 }
+#pragma mark pageControl的点击事件
+- (void)pageControlAction:(UIPageControl *)sender
+{
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
