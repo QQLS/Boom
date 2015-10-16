@@ -10,10 +10,12 @@
 #define Project_APPHeader_h
 
 // 定义宏
+#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
 #define kHeightToHead 250
 #define kPageWeight 100
 #define kPageHeight 20
-
+#define kImageWeight 90
+#define kImageHeight 70
 
 
 
