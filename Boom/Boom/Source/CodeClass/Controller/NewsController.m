@@ -14,25 +14,39 @@
 
 @implementation NewsController
 
+#pragma mark 解析数据
+- (void)p_parseData {
+    
+    // 定义 URL
+    NSURL *url = [NSURL URLWithString:kNewsURL];
+    // 定义请求
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    // 定义连接并开始解析数据
+    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+//        <#code#>
+    }];
+    
+}
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"资讯";
     
     // 用自定义的view替换NewsController的view
-    _root = [[RootView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, KHeightToHead)];
+    _root = [[RootView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kHeightToHead)];
     _root.backgroundColor = [UIColor grayColor];
     self.view = _root;
     
     // 给pageControl添加点击事件
     [self.root.pageControl addTarget:self action:@selector(pageControlAction:) forControlEvents:UIControlEventValueChanged];
     
-    
-    
-    
 }
+
 #pragma mark pageControl的点击事件
-- (void)pageControlAction:(UIPageControl *)sender
-{
+- (void)pageControlAction:(UIPageControl *)sender {
+    
     
 }
 
@@ -47,13 +61,13 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return 5;
 }
 
 /*

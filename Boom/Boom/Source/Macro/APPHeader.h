@@ -10,9 +10,9 @@
 #define Project_APPHeader_h
 
 // 定义宏
-#define KHeightToHead 250
-#define KPageWeight 100
-#define KPageHeight 20
+#define kHeightToHead 250
+#define kPageWeight 100
+#define kPageHeight 20
 
 
 
@@ -27,10 +27,6 @@
 
 
 #import "RootView.h"
-
-
-
-#import "NewsModel.h"
 
 
 

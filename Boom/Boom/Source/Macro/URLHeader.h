@@ -9,4 +9,7 @@
 #ifndef Project_URLHeader_h
 #define Project_URLHeader_h
 
+// 新闻页的 URL
+#define kNewsURL @"http://c.3g.163.com/nc/article/headline/T1348647909107/0-140.html"
+
 #endif

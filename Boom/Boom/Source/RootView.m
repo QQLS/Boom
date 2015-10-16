@@ -22,12 +22,14 @@
 {
     // scrollView布局
     _scrollView = [[UIScrollView alloc] init];
-    _scrollView.frame = CGRectMake(0, 0, CGRectGetWidth(self.frame), KHeightToHead);
+    _scrollView.frame = CGRectMake(0, 0, CGRectGetWidth(self.frame), kHeightToHead);
+#warning 去除代码
+    _scrollView.backgroundColor = [UIColor cyanColor];
     _scrollView.showsHorizontalScrollIndicator = NO;
     [self addSubview:_scrollView];
     
     // pageControll布局
-    _pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width - 100, CGRectGetMaxY(self.scrollView.frame) - 20, KPageWeight, KPageHeight)];
+    _pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width - 100, CGRectGetMaxY(self.scrollView.frame) - 20, kPageWeight, kPageHeight)];
     _pageControl.backgroundColor = [UIColor brownColor];
     _pageControl.pageIndicatorTintColor = [UIColor redColor];
     _pageControl.currentPageIndicatorTintColor = [UIColor orangeColor];

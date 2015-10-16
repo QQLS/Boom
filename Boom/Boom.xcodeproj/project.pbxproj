@@ -12,6 +12,8 @@
 		C27636621BCFA1D400E57B63 /* LiteratureController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27636611BCFA1D400E57B63 /* LiteratureController.m */; };
 		C27636651BCFA20500E57B63 /* PersonageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27636641BCFA20500E57B63 /* PersonageController.m */; };
 		C27636A01BCFEC1800E57B63 /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = C276369F1BCFEC1800E57B63 /* RootView.m */; };
+		C2E021A41BD0782D0023BA7D /* NewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E021A31BD0782D0023BA7D /* NewsView.m */; };
+		C2E021A81BD07C9F0023BA7D /* NewsDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E021A71BD07C9F0023BA7D /* NewsDefaultModel.m */; };
 		C2E288671BCF99A50086DBBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E288661BCF99A50086DBBA /* main.m */; };
 		C2E288701BCF99A50086DBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E2886E1BCF99A50086DBBA /* Main.storyboard */; };
 		C2E288721BCF99A50086DBBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E288711BCF99A50086DBBA /* Images.xcassets */; };
@@ -19,7 +21,6 @@
 		C2E288811BCF99A50086DBBA /* BoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E288801BCF99A50086DBBA /* BoomTests.m */; };
 		C2E288A01BCF9A0D0086DBBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E2888E1BCF9A0D0086DBBA /* AppDelegate.m */; };
 		C2E288A31BCF9AA70086DBBA /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E288A21BCF9AA70086DBBA /* RootTabBarController.m */; };
-		C2E288D81BCFE7E00086DBBA /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E288D71BCFE7E00086DBBA /* NewsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,10 @@
 		C27636641BCFA20500E57B63 /* PersonageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonageController.m; sourceTree = "<group>"; };
 		C276369E1BCFEC1800E57B63 /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootView.h; path = Boom/Source/RootView.h; sourceTree = SOURCE_ROOT; };
 		C276369F1BCFEC1800E57B63 /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootView.m; path = Boom/Source/RootView.m; sourceTree = SOURCE_ROOT; };
+		C2E021A21BD0782D0023BA7D /* NewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsView.h; path = Boom/Source/CodeClass/Model/NewsView.h; sourceTree = SOURCE_ROOT; };
+		C2E021A31BD0782D0023BA7D /* NewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsView.m; path = Boom/Source/CodeClass/Model/NewsView.m; sourceTree = SOURCE_ROOT; };
+		C2E021A61BD07C9F0023BA7D /* NewsDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDefaultModel.h; sourceTree = "<group>"; };
+		C2E021A71BD07C9F0023BA7D /* NewsDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDefaultModel.m; sourceTree = "<group>"; };
 		C2E288611BCF99A50086DBBA /* Boom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E288651BCF99A50086DBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2E288661BCF99A50086DBBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,8 +66,6 @@
 		C2E2889D1BCF9A0D0086DBBA /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
 		C2E288A11BCF9AA70086DBBA /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
 		C2E288A21BCF9AA70086DBBA /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
-		C2E288D61BCFE7E00086DBBA /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
-		C2E288D71BCFE7E00086DBBA /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2E021A51BD07BBA0023BA7D /* News */ = {
+			isa = PBXGroup;
+			children = (
+				C2E021A61BD07C9F0023BA7D /* NewsDefaultModel.h */,
+				C2E021A71BD07C9F0023BA7D /* NewsDefaultModel.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
 		C2E288581BCF99A50086DBBA = {
 			isa = PBXGroup;
 			children = (
@@ -204,8 +216,7 @@
 		C2E288921BCF9A0D0086DBBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C2E288D61BCFE7E00086DBBA /* NewsModel.h */,
-				C2E288D71BCFE7E00086DBBA /* NewsModel.m */,
+				C2E021A51BD07BBA0023BA7D /* News */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -215,6 +226,8 @@
 			children = (
 				C276369E1BCFEC1800E57B63 /* RootView.h */,
 				C276369F1BCFEC1800E57B63 /* RootView.m */,
+				C2E021A21BD0782D0023BA7D /* NewsView.h */,
+				C2E021A31BD0782D0023BA7D /* NewsView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -382,9 +395,10 @@
 				C276365C1BCFA05600E57B63 /* NewsController.m in Sources */,
 				C27636A01BCFEC1800E57B63 /* RootView.m in Sources */,
 				C2E288A31BCF9AA70086DBBA /* RootTabBarController.m in Sources */,
+				C2E021A41BD0782D0023BA7D /* NewsView.m in Sources */,
 				C27636621BCFA1D400E57B63 /* LiteratureController.m in Sources */,
+				C2E021A81BD07C9F0023BA7D /* NewsDefaultModel.m in Sources */,
 				C276365F1BCFA0AD00E57B63 /* AmusementController.m in Sources */,
-				C2E288D81BCFE7E00086DBBA /* NewsModel.m in Sources */,
 				C27636651BCFA20500E57B63 /* PersonageController.m in Sources */,
 				C2E288671BCF99A50086DBBA /* main.m in Sources */,
 				C2E288A01BCF9A0D0086DBBA /* AppDelegate.m in Sources */,
